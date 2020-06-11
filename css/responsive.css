@@ -1,0 +1,719 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/*Navbar and slider*/
+
+	.navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+	
+	.navbar-brand>img {
+	    display: block;
+	    width: 60px;
+	}
+
+	.carousel-inner > .item > img {
+	    width: 100vw;
+	    height: 462px;
+	}
+
+	.carousel-caption-head {
+	    font-family: 'Baskerville';
+	    font-size: 26px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.14;
+	    margin-bottom: 10px;
+	}
+	.carousel-caption-desc {
+	    font-family: 'Baskerville';
+	    font-size: 26px;
+	    font-style: normal;
+	    font-weight: bold;
+	    line-height: 1.2;
+	}
+	.btn.btn-primary.carousel-caption-button {
+	    background: transparent;
+	    color: #fff;
+	    border: 2px solid #fff;
+	    border-radius: 30px;
+	    font-size: 18px;
+	    padding: 5px 19px;
+	    font-family: CircularStd;
+	    margin-top: 7px;
+	}
+	
+
+
+	/*events*/
+	.btn.btn-primary.btn-page-w {
+	    font-family: CircularStd;
+	    font-size: 14px;
+	    font-weight: 500;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.29;
+	    letter-spacing: normal;
+	    text-align: center;
+	    color: #ffffff;
+	    background-color: transparent;
+	    border: 2px solid #fff;
+	    border-radius: 30px;
+	    margin-left: 0;
+	}
+
+	/*Event col*/
+	.col-space-mobile{
+		margin-bottom: 30px;
+	}
+
+	/* Gallery */
+	
+	.gallery-quote-content {
+	    opacity: 0.54;
+	    font-family: Baskerville;
+	    font-size: 18px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.13;
+	    letter-spacing: normal;
+	    text-align: center;
+	    color: #000000;
+	    padding-left: 25px;
+	    padding-right: 25px;
+	}
+	/*testimonials*/
+
+	.item blockquote p {
+	    opacity: 0.54;
+	    font-family: Baskerville;
+	    font-size: 18px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.14;
+	    letter-spacing: normal;
+	    text-align: center;
+	}
+
+	#quote-carousel img {
+	    width: 150px;
+	    height: 150px;
+	}
+
+	.testimonial-name {
+	    font-family: Baskerville;
+	    font-size: 24px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.16;
+	    letter-spacing: normal;
+	    text-align: center;
+	    margin-top: 0;
+	}
+
+	#quote-carousel .carousel-control.left {
+	    left: -47px;
+	    top: 25%;
+	}
+
+	#quote-carousel .carousel-control.right {
+	    right: -47px !important;
+	    top: 25%;
+	}
+
+	.testimonial-title span:before, .testimonial-title span:after {
+	    content: "";
+	    position: absolute;
+	    height: 5px;
+	    border-top: 1px solid #707070;
+	    top: 0;
+	    width: 208px;
+	    margin-top: 28px;
+	}
+
+
+	/* Footer */
+
+	.btn.btn-lg.btn-input {
+	    background-color: #fff;
+	    border: 0;
+	    border-radius: 30px 0 0 30px;
+	    height: 42px;
+	    width: 150px;
+	    text-align: left;
+	    padding-left: 30px;
+	    color: #37393c;
+	    font-size: 18px;
+	}
+
+	.btn.btn-info.btn-lg.btn-signup {
+	    background-color: #3597ec;
+	    border: 0;
+	    border-radius: 0 30px 30px 0;
+	    height: 42px;
+	    width: 108px;
+	}
+
+
+}
+
+/* Mobile Layout: 767px. */
+
+@media only screen and (max-width: 767px) { 
+
+ /*Navbar slider*/
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	    border-color: #e7e7e7;
+	    margin-top: 30px;
+	}
+	.navbar-collapse.in {
+	    overflow-y: auto;
+	    background: #676767;
+	    margin-top: 30px;
+	}
+	.navbar-brand>img {
+	    display: block;
+	    width: 40px;
+	}
+	.navbar-default .navbar-nav > li > a {
+  
+	  margin-right:20px;
+	  margin-left: 20px;
+	  padding-left: 24px;
+	  padding-right: 0;
+	  padding-bottom: 6px;
+	  -webkit-transition: all 500ms; /* Safari */
+	  transition: all 500ms;
+	  display: table-cell;
+	  text-align: center;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+	  color: #ffffff;
+	  font-family: CircularStd;
+	  font-size: 14px;
+	  font-weight: bold;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.29;
+	  letter-spacing: 1px;
+	  text-align: left;
+	  color: #ffffff;
+	  margin-right:40px;
+	  padding-left: 0;
+	  padding-right: 0;
+	  padding-bottom: 6px;
+	  -webkit-transition: all 500ms; /* Safari */
+	  transition: all 500ms;
+	  left:20px;
+	  margin-bottom: 10px;
+	}
+
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {
+	  color: #ffffff;
+	  background-color: transparent;
+	  border-bottom:2px solid #fff;
+	  padding-left: 0;
+	  padding-right: 0;
+	  padding-bottom: 6px;
+	  left:20px;
+	  margin-bottom: 10px;
+	}
+	.carousel-caption {
+	    left: 108px;
+	    right: 5%;
+	    text-align: left;
+	    top: 20%;
+	}
+	.carousel-caption-head {
+	    font-family: 'Baskerville';
+	    font-size: 26px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.14;
+	    margin-bottom: 10px;
+	}
+	.carousel-caption-desc {
+	    font-family: 'Baskerville';
+	    font-size: 26px;
+	    font-style: normal;
+	    font-weight: bold;
+	    line-height: 1.2;
+	}
+	.btn.btn-primary.carousel-caption-button {
+	    background: transparent;
+	    color: #fff;
+	    border: 2px solid #fff;
+	    border-radius: 30px;
+	    font-size: 18px;
+	    padding: 5px 19px;
+	    font-family: CircularStd;
+	    margin-top: 7px;
+	}
+	
+	.video-title{
+		padding-left: 12px;
+	}
+	.video-content{
+		width:100%;
+		padding-left: 12px;
+	}
+
+	/*events*/
+	.big-title {
+	    font-family: Baskerville;
+	    font-size: 56px;
+	    font-weight: 600;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.14;
+	    letter-spacing: normal;
+	    text-transform: uppercase;
+	}
+
+	.event-title-content {
+	    font-family: Baskerville;
+	    font-size: 23px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.15;
+	    letter-spacing: normal;
+	    text-align: center;
+	    color: #ffffff;
+	}
+
+	.event-content-title {
+	    font-family: Baskerville;
+	    font-size: 23px;
+	    font-weight: 600;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.12;
+	    letter-spacing: normal;
+	    text-align: center;
+	    color: #ffffff;
+	    letter-spacing: 1.5px;
+	}
+	.event-content-date {
+	    padding-bottom: 61px;
+	    font-family: Baskerville;
+	    font-size: 20px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.17;
+	    letter-spacing: normal;
+	    text-align: center;
+	    color: #ffffff;
+	}
+
+	.btn.btn-primary.btn-page-w {
+	    font-family: CircularStd;
+	    font-size: 14px;
+	    font-weight: 500;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.29;
+	    letter-spacing: normal;
+	    text-align: center;
+	    color: #ffffff;
+	    background-color: transparent;
+	    border: 2px solid #fff;
+	    border-radius: 30px;
+	    margin-left: 40%;
+	}
+
+	/*Event col*/
+	.col-space-mobile{
+		margin-bottom: 30px;
+	}
+
+
+
+
+	/* Testimonial */
+
+	.testimonial-title span {
+	    font-family: Baskervillesemi;
+	    font-size: 24px;
+	    font-weight: 600;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.14;
+	    letter-spacing: normal;
+	    height: 50px;
+	    display: inline-block;
+	}
+
+	.testimonial-title span:before, .testimonial-title span:after {
+	    content: "";
+	    position: absolute;
+	    height: 5px;
+	    border-top: 1px solid #707070;
+	    top: 0;
+	    width: 158px;
+	    margin-top: 24px;
+	}
+
+	.testimonial-title span:before {
+	    right: 65%;
+	}
+	.testimonial-title span:after {
+	    left: 65%;
+	}
+
+	.testimonial-name {
+	    font-family: Baskerville;
+	    font-size: 24px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.16;
+	    letter-spacing: normal;
+	    text-align: center;
+	}
+	.item blockquote p {
+	    opacity: 0.54;
+	    font-family: Baskerville;
+	    font-size: 18px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.14;
+	    letter-spacing: normal;
+	    text-align: center;
+	}
+
+
+
+	/* About Page*/
+	
+	.main-sub{
+		height:450px;
+	}
+	.event-center img {
+	    width: 100%;
+	    height: auto;
+	    margin: auto;
+	    display: block;
+	}
+
+	.event-center-content {
+	    padding: 0;
+	}
+
+	.our-story-content {
+	    padding-right: 30px; 
+	    padding-left: 30px;
+	}
+	.partners-row h3{
+		text-align:center;
+	}
+
+	.partners-row p{
+		padding-right:0;
+	}
+
+	p.partner-content-middle{
+		text-align: left;
+	}
+
+	/* Gallery Page */
+
+	.gallery-row {
+		margin-bottom: 20px;
+	}
+	.gallery-row a{
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+	.gallery-row img{
+		padding-left: 0px;
+		padding-right: 20px;
+		margin-bottom: 20px;
+	}
+
+	.gallery-row-last{
+		padding-bottom: 50px;
+	}
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (max-width: 480px) {
+
+	/*Navbar slider*/
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	    border-color: #e7e7e7;
+	    margin-top: 30px;
+	}
+	.navbar-collapse.in {
+	    overflow-y: auto;
+	    background: #676767;
+	    margin-top: 30px;
+	}
+	.navbar-brand>img {
+	    display: block;
+	    width: 40px;
+	}
+	.navbar-aaryan{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.carousel-caption {
+	    left: 58px;
+	    right: 5%;
+	    text-align: left;
+	    top: 20%;
+	}
+	.carousel-caption-head {
+	    font-family: 'Baskerville';
+	    font-size: 16px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.14;
+	    margin-bottom: 10px;
+	}
+	.carousel-caption-desc {
+	    font-family: 'Baskerville';
+	    font-size: 16px;
+	    font-style: normal;
+	    font-weight: bold;
+	    line-height: 1.2;
+	}
+	.btn.btn-primary.carousel-caption-button {
+	    background: transparent;
+	    color: #fff;
+	    border: 2px solid #fff;
+	    border-radius: 30px;
+	    font-size: 12px;
+	    padding: 4px 16px;
+	    font-family: CircularStd;
+	    margin-top: 7px;
+	}
+
+	.carousel-inner > .item > img {
+	    width: 100vw;
+	    height: 330px;
+	}
+
+	/*events*/
+	.big-title {
+	    font-family: Baskerville;
+	    font-size: 56px;
+	    font-weight: 600;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.14;
+	    letter-spacing: normal;
+	    text-transform: uppercase;
+	}
+
+	.event-title-content {
+	    font-family: Baskerville;
+	    font-size: 23px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.15;
+	    letter-spacing: normal;
+	    text-align: center;
+	    color: #ffffff;
+	}
+
+	.event-content-title {
+	    font-family: Baskerville;
+	    font-size: 16px;
+	    font-weight: 600;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.12;
+	    letter-spacing: normal;
+	    text-align: center;
+	    color: #ffffff;
+	    letter-spacing: 1.5px;
+	}
+
+	.event-content-date {
+	    padding-bottom: 61px;
+	    font-family: Baskerville;
+	    font-size: 20px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.17;
+	    letter-spacing: normal;
+	    text-align: center;
+	    color: #ffffff;
+	}
+
+	.btn.btn-primary.btn-page-w {
+	    font-family: CircularStd;
+	    font-size: 14px;
+	    font-weight: 500;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.29;
+	    letter-spacing: normal;
+	    text-align: center;
+	    color: #ffffff;
+	    background-color: transparent;
+	    border: 2px solid #fff;
+	    border-radius: 30px;
+	    margin-left: 35%;
+	}
+
+
+	/* Gallery */
+
+	.big-title {
+	    font-family: Baskerville;
+	    font-size: 46px;
+	    font-weight: 600;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.14;
+	    letter-spacing: normal;
+	    text-transform: uppercase;
+	}
+
+	.gallery-content {
+	    font-family: Baskerville;
+	    font-size: 26px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.13;
+	    letter-spacing: normal;
+	    margin-bottom: 55px;
+	}
+
+	.btn.btn-primary.gallery-content-btn {
+	    background-color: transparent;
+	    border: 2px solid #fff;
+	    border-radius: 30px;
+	    padding: 10px 20px;
+	    font-family: CircularStd;
+	    font-size: 10px;
+	    font-weight: 500;
+	    letter-spacing: 1px;
+	}
+
+
+	/* Testimonials */
+
+	.testimonial-title span {
+	    font-family: Baskervillesemi;
+	    font-size: 24px;
+	    font-weight: 600;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.14;
+	    letter-spacing: normal;
+	    height: 50px;
+	    display: inline-block;
+	}
+
+	.testimonial-title span:before, .testimonial-title span:after {
+	    content: "";
+	    position: absolute;
+	    height: 5px;
+	    border-top: 1px solid #707070;
+	    top: 0;
+	    width: 50px;
+	    margin-top: 24px;
+	    display: none;
+	}
+
+	.testimonial-title span:before {
+	    right: 65%;
+	}
+	.testimonial-title span:after {
+	    left: 65%;
+	}
+
+	.testimonial-name {
+	    font-family: Baskerville;
+	    font-size: 24px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.16;
+	    letter-spacing: normal;
+	    text-align: center;
+	}
+
+	.item blockquote p {
+	    opacity: 0.54;
+	    font-family: Baskerville;
+	    font-size: 18px;
+	    font-weight: normal;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.14;
+	    letter-spacing: normal;
+	    text-align: center;
+	}
+
+	/* Footer */
+
+	.btn.btn-lg.btn-input {
+	    background-color: #fff;
+	    border: 0;
+	    border-radius: 30px 0 0 30px;
+	    height: 42px;
+	    width: 140px;
+	    text-align: left;
+	    padding-left: 30px;
+	    color: #37393c;
+	    font-size: 18px;
+	}
+
+	.btn.btn-info.btn-lg.btn-signup {
+	    background-color: #3597ec;
+	    border: 0;
+	    border-radius: 0 30px 30px 0;
+	    height: 42px;
+	    width: 104px;
+	}
+
+	.signup-form {
+		margin-left: 30px;
+	}
+
+
+	/* About Page*/
+	.page-title {
+	    font-family: Baskervillesemi;
+	    font-size: 46px;
+	    font-weight: 600;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.14;
+	    letter-spacing: normal;
+	    color: #fff;
+	    text-transform: uppercase;
+	}
+	
+
+}
